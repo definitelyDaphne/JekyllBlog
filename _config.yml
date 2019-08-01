@@ -19,11 +19,14 @@
 
 description:
 baseurl: '' # the subpath of your site, e.g. /blog
-url: "https://definitelydaphne.github.io/JekyllBlog/" # the base hostname & protocol for your site, e.g. http://example.com
-#github_username:  definitelyDaphne
+url: "https://definitelydaphne.github.io/JekyllBlog/" 
+
+baseurl: '' # the subpath of your site, e.g. /blog
+url: "https://definitelydaphne.github.io/JekyllBlog/"
+
+github_username:  definitelyDaphne
 
 ###windows-95 theme variables START HERE###
-# mute title, theme, plugin, email, git
 permalink: /:year:month:day/:title
 google_verification: null
 name: Computer & Coding
