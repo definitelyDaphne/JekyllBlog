@@ -14,15 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# title: Computer & Coding
+title: Computer & Coding
 #email: 22531975@student.uwa.edu.au
 
 description:
 baseurl: '' # the subpath of your site, e.g. /blog
 url: "https://definitelydaphne.github.io/JekyllBlog/" 
-
-baseurl: '' # the subpath of your site, e.g. /blog
-url: "https://definitelydaphne.github.io/JekyllBlog/"
 
 github_username:  definitelyDaphne
 
