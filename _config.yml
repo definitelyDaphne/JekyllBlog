@@ -18,10 +18,10 @@ title: Computer & Coding
 #email: 22531975@student.uwa.edu.au
 
 description:
-baseurl: '/JekyllBlog' # the subpath of your site, e.g. /blog
-url: "https://definitelydaphne.github.io" 
+baseurl: '' # the subpath of your site, e.g. /blog
+url: "https://definitelydaphne.github.io/JekyllBlog" 
 
-github_username:  definitelyDaphne
+github_username: definitelyDaphne
 
 ###windows-95 theme variables START HERE###
 permalink: /:year:month:day/:title
@@ -47,7 +47,7 @@ kramdown:
 
 ###windows-95 theme variables END HERE###
 
-#theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 
