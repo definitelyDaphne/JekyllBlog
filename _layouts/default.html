@@ -2,11 +2,12 @@
 <html>
 <head>
 	<!--url base setting-->
-	<base href="{{ site.baseurl }}/">
+	<!--<base href="{{ site.baseurl }}/"> SEEMS NOT WORKING THIS WAY-->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="/assets/css/atom-one-light.css">
+	<!--<link rel="stylesheet" href="/assets/css/atom-one-light.css">-->
+	<link rel="stylesheet" href={{'/assets/css/atom-one-light.css' | relative_url }}>
     {% if page.title or page.title == 'me' %}
         <title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/assets/css/002.css">
