@@ -417,7 +417,7 @@ ul.topbar {
 	}
 
 	&:vertical:increment {
-		background-image: url("/JekyllBlog/assets/img/down.png");
+		background-image: url("{/JekyllBlog/assets/img/down.png");
 	}
 
 	&:horizontal:decrement {
@@ -425,7 +425,7 @@ ul.topbar {
 	}
 
 	&:horizontal:increment {
-		background-image: url("/JekyllBlog/assets/img/right.png");
+		background-image: url("{/JekyllBlog/assets/img/right.png");
 	}
 
 	&:active {
