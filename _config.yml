@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:
+title: Computer & Coding
 email:
 twitter_username:
 
@@ -27,7 +27,7 @@ url: "https://definitelydaphne.github.io"
 github_username: definitelyDaphne
 
 ###windows-95 theme variables START HERE###
-permalink: /:year:month:day/:title
+permalink: /JekyllBlog/:year:month:day/:title
 google_verification: null
 name: Computer & Coding
 
@@ -53,6 +53,8 @@ kramdown:
 theme: minima
 plugins:
   - jekyll-feed
+
+github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
